@@ -1,0 +1,14 @@
+/* khong bi lech layout */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Ap dung toan trang */
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
