@@ -166,3 +166,210 @@ a {
   width: 250px;
   height: 410px;
 }
+
+/* ======================service========================== */
+.service {
+  padding: 170px 0px;
+  background: #fff;
+}
+
+.section_heading {
+  color: var(--header-bg);
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.section_desc {
+  margin-top: 18px;
+  color: var(--header-bg);
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+}
+
+.service_heading,
+.service_desc {
+  text-align: center;
+}
+/* Can giua khi the p dung margin */
+.service_desc {
+  width: 460px;
+  margin: 18px auto 0;
+}
+
+.service_row {
+  margin-top: 70px;
+  display: flex;
+  /* dan ra 2 dau */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service_img {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.service_item {
+  padding: 21px;
+  display: flex;
+  width: 470px;
+  border-radius: 10px;
+  background: #fff;
+  transition: 0.25s;
+}
+
+.service_item:hover {
+  position: relative;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.service_item_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Hinhf khong bi meo */
+  flex-shrink: 0;
+  margin-right: 19px;
+  transition: 0.25s;
+}
+
+.service_item:hover .service_item_icon {
+  background: pink;
+  color: #fff;
+}
+
+.service_item_heading {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.service_item_desc {
+  margin-top: 8px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75;
+}
+.service_btn {
+  margin-top: 55px;
+}
+
+/* =========================work=================================== */
+.work {
+  background: #fff;
+  padding: 100px 0;
+}
+
+.work_desc {
+  width: 468px;
+}
+
+.work_list {
+  margin-top: 86px;
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.work_item {
+  padding: 43px;
+  border-radius: 4px;
+  background: #fff;
+  border: 16px solid #c9d2ca;
+  transition: 0.25s;
+}
+
+.work_item:hover {
+  border-color: #2e80ce;
+  /* Y ka dich theo doc X dich theo chieu ngang */
+  transform: translateY(-16px);
+}
+
+.fa-solid {
+  font-size: 50px;
+}
+.work_item_heading {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.work_item_desc {
+  margin-top: 28px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+.work_item_more {
+  color: #2e80ce;
+  margin-top: 28px;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.team_list {
+  display: flex;
+}
+.team {
+  padding: 85px;
+  object-fit: cover;
+}
+
+.team_header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.team_list {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.team_control {
+  margin-top: 38px;
+  display: flex; /* cần có để 2 nút nằm ngang */
+  justify-content: center;
+  gap: 18px; /* tạo khoảng cách giữa 2 nút */
+}
+
+.control_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* làm tròn nút */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc; /* thêm viền nhẹ cho đẹp */
+  cursor: pointer;
+  background: #fff;
+  color: #333; /* màu mũi tên */
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.control_btn:hover {
+  background: #fff; /* đổi màu khi hover */
+  color: pink; /* mũi tên trắng khi hover */
+  transform: translateY(-3px); /* nổi nhẹ lên */
+}
+
+.fa-solid {
+  font-size: 1.6rem;
+}
